@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceCategory
+         android:title="Profile Section"/>
+         <CheckBoxPreference
+             android:defaultValue="true"
+             android:key="checkbox_preference"
+             android:title="Checkbox Preference"
+             android:visibility="visible" />
+        <EditTextPreference
+            android:dialogTitle="dialog_profile_edittext_Preference"
+            android:key="edittext_Preference"
+            android:title="Edit Text Preference"
+            android:visibility="visible" />
+
+      <PreferenceCategory
+          android:title="Notification Section"
+          android:icon="@drawable/messages"/>
+
+      <Preference
+          android:title="Select Ringtone"/>
+
+        <RingtonePreference
+            android:defaultValue="use default"
+            android:key="ringtone_preference_1"
+            android:title="Ringtone preference" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_1"
+            android:title="Logout preference" />
+
+
+</PreferenceScreen>

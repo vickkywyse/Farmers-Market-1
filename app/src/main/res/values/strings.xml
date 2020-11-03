@@ -50,4 +50,8 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="profile_section">profile_section</string>
+    <string name="profile_checkbox_preference">profile_checkbox_preference</string>
+    <string name="default_checkbox_preference"><![CDATA["                    android:defaultValue=\"@string/default_checkbox_preference\"/> "]]></string>
+    <string name="profilsection">Profile Section</string>
 </resources>
