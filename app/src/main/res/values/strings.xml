@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Farmer\'s Market</string>
+    <string name="app_name" translatable="false">Farmer\'s Market</string>
     <string name="image_count_sample">5/9</string>
     <string name="product_image">Product Image</string>
     <string name="sample_product_name">Basket of Fresh Mangos</string>
@@ -9,7 +9,7 @@
     <string name="chat">Chat</string>
     <string name="call">Call</string>
     <string name="description">About this item</string>
-    <string name="similar_items">Similar items</string>
+    <string name="similar_items" translatable="false">Similar items</string>
     <string name="title_home">Home</string>
     <string name="title_message">Message</string>
     <string name="title_settings">Settings</string>
@@ -94,5 +94,6 @@
     <string name="posted_at">Posted at %s</string>
     <string name="add_new_product_require_location">Add new product require location to be enabled</string>
     <string name="ads">Ads</string>
+
 
 </resources>
